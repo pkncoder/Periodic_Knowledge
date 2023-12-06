@@ -14,14 +14,14 @@ def findElement(userInput):
         with open('data.csv') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
             for row in csv_reader:
-                if row[1].replace(' ', '').upper() == userInput.upper():
+                if row[2].replace(' ', '').upper() == userInput.upper():
                     return row
 
-    else:
+    elif len(userInput) > 2:
         with open('data.csv') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=',')
             for row in csv_reader:
-                if row[2].replace(' ', '').upper() == userInput.upper():
+                if row[1].replace(' ', '').upper() == userInput.upper():
                     return row
 
 def parseData(data):
