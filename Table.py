@@ -25,7 +25,9 @@ element_list = [Hydrogen, Helium, Lithium, Beryllium, Boron, Carbon, Nitrogen, O
 def findElement(userInput):
 
     if re.search("[1-9]", userInput):
-        print("Protons")
+        for i in range(len(element_list)):
+            if int(userInput) == element_list[i].atomic_number:
+                return element_list[i]
         
     elif len(userInput) <= 2:
         for i in range(len(element_list)):
