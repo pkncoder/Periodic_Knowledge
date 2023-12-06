@@ -1,5 +1,5 @@
-from Table import *
+from search import *
 from sys import argv
 import csv
 
-print(findElement(argv[1]))
+print(parseData(findElement(argv[1])))
