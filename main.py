@@ -1,5 +1,6 @@
 from Element import Element
+from Table import *
 
-Oxygen = Element(2, 16, "O", "Oxygen", 8, 15.999)
+user_input = input("Please input either the symbol, name, or proton number of the searched element: ")
 
-print(Oxygen)
+print(findElement(user_input))
