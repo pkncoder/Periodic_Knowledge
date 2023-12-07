@@ -15,17 +15,16 @@ def findElement(userInput):
 
             # Loop each row so we can iterate on each spot inside the row instead of just each row
             for row in csv_reader:
-
+                
                 # For every row, check the first slot
                 # If it matches the user's input then return the whole row to get ready for parsing
                 if row[0] == userInput:
                     return row
                 
-                # Now if it isn't any of these things, then somthing is wrong with the user's input
-                # Direct them to do somthing else
-                else:
-                    # Return the statement to be printed
-                    return 'There was either an error with running the code or your input, please try again and report an issue on github at https://github.com/pkncoder/Periodic_Knowledge.'
+            # Now if it isn't any of these things, then somthing is wrong with the user's input
+            # Direct them to do somthing else
+            # Return the statement to be printed
+            return 'There was either an error with running the code or your input, please try again and report an issue on github at https://github.com/pkncoder/Periodic_Knowledge.'
                 
     # If the user's input is two or less, then it has to be a atomic symbol
     elif len(userInput) <= 2:
@@ -41,17 +40,15 @@ def findElement(userInput):
                 # Check if the third spot in the row (atomic symbol) is equal to the user's input
                 # Make everything uppercase so capitalization does not matter
                 # Get rid of any spaces here incase there is any
-                print(f"{row[2].replace(' ', '').upper()} | {userInput.upper()}")
                 if row[2].replace(' ', '').upper() == userInput.upper():
 
                     # Return the whole row to get ready to parse through
                     return row
 
-                # Now if it isn't any of these things, then somthing is wrong with the user's input
-                # Direct them to do somthing else
-                else:
-                    # Return the statement to be printed
-                    return 'There was either an error with running the code or your input, please try again and report an issue on github at https://github.com/pkncoder/Periodic_Knowledge.'
+            # Now if it isn't any of these things, then somthing is wrong with the user's input
+            # Direct them to do somthing else
+            # Return the statement to be printed
+            return 'There was either an error with running the code or your input, please try again and report an issue on github at https://github.com/pkncoder/Periodic_Knowledge.'
 
     # If it is not a number or a symbol, it has to be more than two
     # This is for name
@@ -72,11 +69,10 @@ def findElement(userInput):
                     # Return the whole row to get ready to parse through
                     return row
                 
-                # Now if it isn't any of these things, then somthing is wrong with the user's input
-                # Direct them to do somthing else
-                else:
-                    # Return the statement to be printed
-                    return 'There was either an error with running the code or your input, please try again and report an issue on github at https://github.com/pkncoder/Periodic_Knowledge.'
+            # Now if it isn't any of these things, then somthing is wrong with the user's input
+            # Direct them to do somthing else
+            # Return the statement to be printed
+            return 'There was either an error with running the code or your input, please try again and report an issue on github at https://github.com/pkncoder/Periodic_Knowledge.'
 
 # Parse the data and return it as a dictionary
 def parseData(data):
