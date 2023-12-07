@@ -25,4 +25,20 @@ def findElement(userInput):
                     return row
 
 def parseData(data):
-    return (f'Name: {data[2]}\nSymbol: {data[1]}\nProtons: {data[0]}\nShells: {data[11]}\nValence Electrons: {data[12] if data[12] != " " else "No Known or Spesific Amount"}\nPeriod: {data[4]}\nGroup: {data[5] if data[5] != " " else "No Group"}\nBlock/Type: {data[13]}\nCommon State: {data[6]}\nAtomic Weight: {data[3]}\nRadioactive: {data[10] if data[10] != " " else "No"}\nMelting Point (Kelvin): {data[7]  if data[7] != " " else "No Known Melting Point"}\nBoiling Point (Kelvin): {data[8]  if data[7] != " " else "No Known Boiling Point"}\nYear Discovered: {data[9] if data[9] != " " else "Prehistoric"}')
+    return \
+    {
+        'Name': data[1],
+        'Symbol': data[2],
+        'Protons': ' ' + data[0],
+        'Shells': data[11],
+        'Valence Electrons': data[12] if data[12] != " " else " No Known or Spesific Amount",
+        'Period': data[4],
+        'Group': data[5] if data[5] != " " else " No Group",
+        'Block/Type': data[13] if data[13] != " " else " Not Classified or Unkown",
+        'Common State': data[6],
+        'Atomic Weight': data[3],
+        'Radioactive': data[10] if data[10] != " " else " No",
+        'Melting Point (Kelvin)': data[7]  if data[7] != " " else " No Known Melting Point",
+        'Boiling Point (Kelvin)': data[8]  if data[8] != " " else " No Known Boiling Point",
+        'Year Discovered': data[9] if data[9] != " " else " Prehistoric",
+    }
