@@ -1,6 +1,5 @@
 from search import *
 from sys import argv
-import csv
 from rich.console import Console
 from rich.table import Table
 
