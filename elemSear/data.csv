@@ -1,0 +1,119 @@
+AtomicNumber, Element, Symbol, AtomicMass, Period, Group, Phase, MeltingPoint, BoilingPoint, Year, Radioactive, NumberofShells, NumberofValence, Type
+1, Hydrogen, H, 1.007, 1, 1, gas, 14.175, 20.28, 1766, , 1, 1, Nonmetal
+2, Helium, He, 4.002, 1, 18, gas, , 4.22, 1868, , 1, , Noble Gas
+3, Lithium, Li, 6.941, 2, 1, solid, 453.85, 1615, 1817, , 2, 1, Alkali Metal
+4, Beryllium, Be, 9.012, 2, 2, solid, 1560.15, 2742, 1798, , 2, 2, Alkaline Earth Metal
+5, Boron, B, 10.811, 2, 13, solid, 2573.15, 4200, 1808, , 2, 3, Metalloid
+6, Carbon, C, 12.011, 2, 14, solid, 3948.15, 4300, , , 2, 4, Nonmetal
+7, Nitrogen, N, 14.007, 2, 15, gas, 63.29, 77.36, 1772, , 2, 5, Nonmetal
+8, Oxygen, O, 15.999, 2, 16, gas, 50.5, 90.2, 1774, , 2, 6, Nonmetal
+9, Fluorine, F, 18.998, 2, 17, gas, 53.63, 85.03, 1886, , 2, 7, Halogen
+10, Neon, Ne, 20.18, 2, 18, gas, 24.703, 27.07, 1898, , 2, 8, Noble Gas
+11, Sodium, Na, 22.99, 3, 1, solid, 371.15, 1156, 1807, , 3, 1, Alkali Metal
+12, Magnesium, Mg, 24.305, 3, 2, solid, 923.15, 1363, 1755, , 3, 2, Alkaline Earth Metal
+13, Aluminum, Al, 26.982, 3, 13, solid, 933.4, 2792, 1827, , 3, 3, Metal
+14, Silicon, Si, 28.086, 3, 14, solid, 1683.15, 3538, 1824, , 3, 4, Metalloid
+15, Phosphorus, P, 30.974, 3, 15, solid, 317.25, 553, 1669, , 3, 5, Nonmetal
+16, Sulfur, S, 32.065, 3, 16, solid, 388.51, 717.8, , , 3, 6, Nonmetal
+17, Chlorine, Cl, 35.453, 3, 17, gas, 172.31, 239.11, 1774, , 3, 7, Halogen
+18, Argon, Ar, 39.948, 3, 18, gas, 83.96, 87.3, 1894, , 3, 8, Noble Gas
+19, Potassium, K, 39.098, 4, 1, solid, 336.5, 1032, 1807, , 4, 1, Alkali Metal
+20, Calcium, Ca, 40.078, 4, 2, solid, 1112.15, 1757, 1808, , 4, 2, Alkaline Earth Metal
+21, Scandium, Sc, 44.956, 4, 3, solid, 1812.15, 3109, 1878, , 4, , Transition Metal
+22, Titanium, Ti, 47.867, 4, 4, solid, 1933.15, 3560, 1791, , 4, , Transition Metal
+23, Vanadium, V, 50.942, 4, 5, solid, 2175.15, 3680, 1801, , 4, , Transition Metal
+24, Chromium, Cr, 51.996, 4, 6, solid, 2130.15, 2944, 1797, , 4, , Transition Metal
+25, Manganese, Mn, 54.938, 4, 7, solid, 1519.15, 2334, 1774, , 4, , Transition Metal
+26, Iron, Fe, 55.845, 4, 8, solid, 1808.15, 3134, , , 4, , Transition Metal
+27, Cobalt, Co, 58.933, 4, 9, solid, 1768.15, 3200, 1735, , 4, , Transition Metal
+28, Nickel, Ni, 58.693, 4, 10, solid, 1726.15, 3186, 1751, , 4, , Transition Metal
+29, Copper, Cu, 63.546, 4, 11, solid, 1357.75, 2835, , , 4, , Transition Metal
+30, Zinc, Zn, 65.38, 4, 12, solid, 692.88, 1180, , , 4, , Transition Metal
+31, Gallium, Ga, 69.723, 4, 13, solid, 302.91, 2477, 1875, , 4, 3, Metal
+32, Germanium, Ge, 72.64, 4, 14, solid, 1211.45, 3106, 1886, , 4, 4, Metalloid
+33, Arsenic, As, 74.922, 4, 15, solid, 1090.15, 887, 1250, , 4, 5, Metalloid
+34, Selenium, Se, 78.96, 4, 16, solid, 494.15, 958, 1817, , 4, 6, Nonmetal
+35, Bromine, Br, 79.904, 4, 17, liq, 266.05, 332, 1826, , 4, 7, Halogen
+36, Krypton, Kr, 83.798, 4, 18, gas, 115.93, 119.93, 1898, , 4, 8, Noble Gas
+37, Rubidium, Rb, 85.468, 5, 1, solid, 312.79, 961, 1861, , 5, 1, Alkali Metal
+38, Strontium, Sr, 87.62, 5, 2, solid, 1042.15, 1655, 1808, , 5, 2, Alkaline Earth Metal
+39, Yttrium, Y, 88.906, 5, 3, solid, 1799.15, 3609, 1794, , 5, , Transition Metal
+40, Zirconium, Zr, 91.224, 5, 4, solid, 2125.15, 4682, 1789, , 5, , Transition Metal
+41, Niobium, Nb, 92.906, 5, 5, solid, 2741.15, 5017, 1801, , 5, , Transition Metal
+42, Molybdenum, Mo, 95.96, 5, 6, solid, 2890.15, 4912, 1778, , 5, , Transition Metal
+43, Technetium, Tc, 98, 5, 7, artificial, 2473.15, 5150, 1937, yes, 5, , Transition Metal
+44, Ruthenium, Ru, 101.07, 5, 8, solid, 2523.15, 4423, 1844, , 5, , Transition Metal
+45, Rhodium, Rh, 102.906, 5, 9, solid, 2239.15, 3968, 1803, , 5, , Transition Metal
+46, Palladium, Pd, 106.42, 5, 10, solid, 1825.15, 3236, 1803, , 5, , Transition Metal
+47, Silver, Ag, 107.868, 5, 11, solid, 1234.15, 2435, , , 5, , Transition Metal
+48, Cadmium, Cd, 112.411, 5, 12, solid, 594.33, 1040, 1817, , 5, , Transition Metal
+49, Indium, In, 114.818, 5, 13, solid, 429.91, 2345, 1863, , 5, 3, Metal
+50, Tin, Sn, 118.71, 5, 14, solid, 505.21, 2875, , , 5, 4, Metal
+51, Antimony, Sb, 121.76, 5, 15, solid, 904.05, 1860, , , 5, 5, Metalloid
+52, Tellurium, Te, 127.6, 5, 16, solid, 722.8, 1261, 1782, , 5, 6, Metalloid
+53, Iodine, I, 126.904, 5, 17, solid, 386.65, 457.4, 1811, , 5, 7, Halogen
+54, Xenon, Xe, 131.293, 5, 18, gas, 161.45, 165.03, 1898, , 5, 8, Noble Gas
+55, Cesium, Cs, 132.905, 6, 1, solid, 301.7, 944, 1860, , 6, 1, Alkali Metal
+56, Barium, Ba, 137.327, 6, 2, solid, 1002.15, 2170, 1808, , 6, 2, Alkaline Earth Metal
+57, Lanthanum, La, 138.905, 6, 3, solid, 1193.15, 3737, 1839, , 6, , Lanthanide
+58, Cerium, Ce, 140.116, 6, , solid, 1071.15, 3716, 1803, , 6, , Lanthanide
+59, Praseodymium, Pr, 140.908, 6, , solid, 1204.15, 3793, 1885, , 6, , Lanthanide
+60, Neodymium, Nd, 144.242, 6, , solid, 1289.15, 3347, 1885, , 6, , Lanthanide
+61, Promethium, Pm, 145, 6, , artificial, 1204.15, 3273, 1945, yes, 6, , Lanthanide
+62, Samarium, Sm, 150.36, 6, , solid, 1345.15, 2067, 1879, , 6, , Lanthanide
+63, Europium, Eu, 151.964, 6, , solid, 1095.15, 1802, 1901, , 6, , Lanthanide
+64, Gadolinium, Gd, 157.25, 6, , solid, 1585.15, 3546, 1880, , 6, , Lanthanide
+65, Terbium, Tb, 158.925, 6, , solid, 1630.15, 3503, 1843, , 6, , Lanthanide
+66, Dysprosium, Dy, 162.5, 6, , solid, 1680.15, 2840, 1886, , 6, , Lanthanide
+67, Holmium, Ho, 164.93, 6, , solid, 1743.15, 2993, 1878, , 6, , Lanthanide
+68, Erbium, Er, 167.259, 6, , solid, 1795.15, 3503, 1843, , 6, , Lanthanide
+69, Thulium, Tm, 168.934, 6, , solid, 1818.15, 2223, 1879, , 6, , Lanthanide
+70, Ytterbium, Yb, 173.054, 6, , solid, 1097.15, 1469, 1878, , 6, , Lanthanide
+71, Lutetium, Lu, 174.967, 6, , solid, 1936.15, 3675, 1907, , 6, , Lanthanide
+72, Hafnium, Hf, 178.49, 6, 4, solid, 2500.15, 4876, 1923, , 6, , Transition Metal
+73, Tantalum, Ta, 180.948, 6, 5, solid, 3269.15, 5731, 1801, , 6, , Transition Metal
+74, Wolfram, W, 183.84, 6, 6, solid, 3680.15, 5828, 1783, , 6, , Transition Metal
+75, Rhenium, Re, 186.207, 6, 7, solid, 3453.15, 5869, 1925, , 6, , Transition Metal
+76, Osmium, Os, 190.23, 6, 8, solid, 3300.15, 5285, 1803, , 6, , Transition Metal
+77, Iridium, Ir, 192.217, 6, 9, solid, 2716.15, 4701, 1804, , 6, , Transition Metal
+78, Platinum, Pt, 195.084, 6, 10, solid, 2045.15, 4098, 1735, , 6, , Transition Metal
+79, Gold, Au, 196.967, 6, 11, solid, 1337.73, 3129, , , 6, , Transition Metal
+80, Mercury, Hg, 200.59, 6, 12, liq, 234.43, 630, , , 6, , Transition Metal
+81, Thallium, Tl, 204.383, 6, 13, solid, 577.15, 1746, 1861, , 6, 3, Metal
+82, Lead, Pb, 207.2, 6, 14, solid, 600.75, 2022, , , 6, 4, Metal
+83, Bismuth, Bi, 208.98, 6, 15, solid, 544.67, 1837, 1753, , 6, 5, Metal
+84, Polonium, Po, 210, 6, 16, solid, 527.15, 1235, 1898, yes, 6, 6, Metalloid
+85, Astatine, At, 210, 6, 17, solid, 575.15, 610, 1940, yes, 6, 7, Noble Gas
+86, Radon, Rn, 222, 6, 18, gas, 202.15, 211.3, 1900, yes, 6, 8, Alkali Metal
+87, Francium, Fr, 223, 7, 1, solid, 300.15, 950, 1939, yes, 7, 1, Alkaline Earth Metal
+88, Radium, Ra, 226, 7, 2, solid, 973.15, 2010, 1898, yes, 7, 2, Actinide
+89, Actinium, Ac, 227, 7, 3, solid, 1323.15, 3471, 1899, yes, 7, , Actinide
+90, Thorium, Th, 232.038, 7, , solid, 2028.15, 5061, 1828, yes, 7, , Actinide
+91, Protactinium, Pa, 231.036, 7, , solid, 1873.15, 4300, 1917, yes, 7, , Actinide
+92, Uranium, U, 238.029, 7, , solid, 1405.15, 4404, 1841, yes, 7, , Actinide
+93, Neptunium, Np, 237, 7, , artificial, 913.15, 4273, 1940, yes, 7, , Actinide
+94, Plutonium, Pu, 244, 7, , artificial, 913.15, 3501, 1940, yes, 7, , Actinide
+95, Americium, Am, 243, 7, , artificial, 1267.15, 2880, 1944, yes, 7, , Actinide
+96, Curium, Cm, 247, 7, , artificial, 1340.15, 3383, 1944, yes, 7, , Actinide
+97, Berkelium, Bk, 247, 7, , artificial, 1259.15, 983, 1949, yes, 7, , Actinide
+98, Californium, Cf, 251, 7, , artificial, 1925.15, 1173, 1950, yes, 7, , Actinide
+99, Einsteinium, Es, 252, 7, , artificial, 1133.15, , 1952, yes, 7, , Actinide
+100, Fermium, Fm, 257, 7, , artificial, , , 1953, yes, 7, , Actinide
+101, Mendelevium, Md, 258, 7, , artificial, , , 1955, yes, 7, , Actinide
+102, Nobelium, No, 259, 7, , artificial, , , 1958, yes, 7, , Actinide
+103, Lawrencium, Lr, 262, 7, , artificial, , , 1961, yes, 7, , Actinide
+104, Rutherfordium, Rf, 261, 7, 4, artificial, , , 1969, yes, 7, , Transactinide
+105, Dubnium, Db, 262, 7, 5, artificial, , , 1970, yes, 7, , Transactinide
+106, Seaborgium, Sg, 266, 7, 6, artificial, , , 1974, yes, 7, , Transactinide
+107, Bohrium, Bh, 264, 7, 7, artificial, , , 1981, yes, 7, , Transactinide
+108, Hassium, Hs, 267, 7, 8, artificial, , , 1983, yes, 7, , Transactinide
+109, Meitnerium, Mt, 268, 7, 9, artificial, , , 1982, yes, 7, , Transactinide
+110, Darmstadtium , Ds , 271, 7, 10, artificial, , , 1994, yes, 7, , Transactinide
+111, Roentgenium , Rg , 272, 7, 11, artificial, , , 1994, yes, 7, , Transactinide
+112, Copernicium , Cn , 285, 7, 12, artificial, , , 1996, yes, 7, , Transactinide
+113, Nihonium, Nh, 284, 7, 13, artificial, , , 2004, yes, 7, 3, 
+114, Flerovium, Fl, 289, 7, 14, artificial, , , 1999, yes, 7, 4, Transactinide
+115, Moscovium, Mc, 288, 7, 15, artificial, , , 2010, yes, 7, 5, 
+116, Livermorium, Lv, 292, 7, 16, artificial, , , 2000, yes, 7, 6, Transactinide
+117, Tennessine, Ts, 295, 7, 17, artificial, , , 2010, yes, 7, 7, 
+118, Oganesson, Og, 294, 7, 18, artificial, , , 2006, yes, 7, 8, Noble Gas
