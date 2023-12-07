@@ -6,8 +6,7 @@ import csv
 def findElement(userInput):
 
     # If there is a one to nine in their input, AND ALSO NO CHARACTERS then search with atomic number
-    if re.findall('[1-9]', userInput) and not re.findall('[a-zA-Z]', userInput):
-
+    if userInput.isdigit():
         # Open the csv and use the csv reader so we can subscript
         with open('data.csv') as csv_file:
 
@@ -22,13 +21,18 @@ def findElement(userInput):
                 if row[0] == userInput:
                     return row
                 
+                # Now if it isn't any of these things, then somthing is wrong with the user's input
+                # Direct them to do somthing else
+                else:
+                    # Return the statement to be printed
+                    return 'There was either an error with running the code or your input, please try again and report an issue on github at https://github.com/pkncoder/Periodic_Knowledge.'
+                
     # If the user's input is two or less, then it has to be a atomic symbol
     elif len(userInput) <= 2:
-
         # Open the csv and use the csv reader so we can subscript
         with open('data.csv') as csv_file:
 
-            # Store csv reader as the iterable object
+            # Store csv reader as the iterable object            
             csv_reader = csv.reader(csv_file, delimiter=',')
 
             # Loop each row so we can iterate on each spot inside the row instead of just each row
@@ -37,15 +41,21 @@ def findElement(userInput):
                 # Check if the third spot in the row (atomic symbol) is equal to the user's input
                 # Make everything uppercase so capitalization does not matter
                 # Get rid of any spaces here incase there is any
+                print(f"{row[2].replace(' ', '').upper()} | {userInput.upper()}")
                 if row[2].replace(' ', '').upper() == userInput.upper():
 
                     # Return the whole row to get ready to parse through
                     return row
 
+                # Now if it isn't any of these things, then somthing is wrong with the user's input
+                # Direct them to do somthing else
+                else:
+                    # Return the statement to be printed
+                    return 'There was either an error with running the code or your input, please try again and report an issue on github at https://github.com/pkncoder/Periodic_Knowledge.'
+
     # If it is not a number or a symbol, it has to be more than two
     # This is for name
     elif len(userInput) > 2:
-
         # Open the csv and use the csv reader so we can subscript
         with open('data.csv') as csv_file:
 
@@ -61,12 +71,12 @@ def findElement(userInput):
                 if row[1].replace(' ', '').upper() == userInput.upper():
                     # Return the whole row to get ready to parse through
                     return row
-
-    # Now if it isn't any of these things, then somthing is wrong with the user's input
-    # Direct them to do somthing else
-    else:
-        # Return the statement to be printed
-        return 'There was either an error with running the code or your input, please try again and report an issue on github at https://github.com/pkncoder/Periodic_Knowledge.'
+                
+                # Now if it isn't any of these things, then somthing is wrong with the user's input
+                # Direct them to do somthing else
+                else:
+                    # Return the statement to be printed
+                    return 'There was either an error with running the code or your input, please try again and report an issue on github at https://github.com/pkncoder/Periodic_Knowledge.'
 
 # Parse the data and return it as a dictionary
 def parseData(data):
